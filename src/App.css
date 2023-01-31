@@ -1,0 +1,157 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* header  */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.headerTitle {
+  color: whitesmoke;
+}
+
+.btns>button {
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #747EAA;
+  color: #F1B103;
+  cursor: pointer;
+}
+
+.btns>select {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #747EAA;
+  color: white;
+  cursor: pointer;
+}
+
+/* footer  */
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerleft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  border: 2px solid #747EAA;
+  border-radius: 10px;
+}
+
+.btn {
+  height: 50px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+  border-right: 2px solid #747EAA;
+  cursor: pointer;
+}
+
+.button1 {
+  height: 80%;
+}
+
+.footerleft>img {
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+  display: inline-block;
+  background-color: #DC354B;
+  border: 2px solid #FFFFFF;
+  padding: 5px;
+  border-radius: 50%;
+}
+.btn1 {
+  height: 50px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  border-right: 2px solid #747EAA;
+  cursor: pointer;
+}
+
+.button5 {
+  border: 0px;
+}
+.endBtn{
+  height: 50px;
+  width: 90px;
+  margin-right: 20px;
+  background-color: #DC354B;
+  border-radius: 7px;
+  color: #FFFFFF;
+}
+.footerright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* videos  */
+.usersVideo{
+ width: 80%;
+ height: 75vh;
+ background-color: red;
+}
+
+/* only one user */
